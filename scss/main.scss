@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+//VARIABLES
+@import './variables/colores';
+@import './variables/tamanios';
+@import './variables/extend';
+@import './variables/mixin';
+
+//SECCIONES
+@import './secciones/header';
+@import './secciones/footer';
+@import './secciones/index';
+@import './secciones/productos';
+@import './secciones/preguntasFrecuentes';
+@import './secciones/contacto';

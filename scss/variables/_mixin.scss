@@ -1,0 +1,14 @@
+@mixin subtitulo{
+    color: $titulo-color;
+    font-size: $subtitulo-tamanio;
+    &:hover{
+        transform: scale(1.111);
+            transition-property: all;
+            transition-duration: 1s;
+            transition: 1s;
+    }
+}
+
+@mixin informacion{
+    font-size: $parrafo-tamanio;
+}

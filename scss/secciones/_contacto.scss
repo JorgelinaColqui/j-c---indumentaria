@@ -1,0 +1,52 @@
+.contacto-contenedor{
+    width: 100%;
+    padding: 2vh;
+    h1{
+        @extend %estilosTitulo;
+    }
+    .contacto-mapa{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        iframe{
+            width: 75vh;
+            height: 65vh;
+            margin: 2vh;
+
+        }
+    }
+}
+
+.contacto-informacion{
+    h4{
+    @include subtitulo;
+    }
+    p{
+        @include informacion;
+    }
+    li{
+        list-style-type: none;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        &:hover{
+            color: $link-color;
+        }
+    }
+    .icono2{
+        font-size: 3vh;
+        color: black;
+        &:hover{
+            color: $link-color;
+        }
+    }
+}
+
+@media (max-width:510px){
+    iframe{
+        width: 20vh;
+        height: 20vh;
+    }
+}

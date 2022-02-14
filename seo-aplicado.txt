@@ -1,0 +1,48 @@
+1. Incorpore etiquetas meta keywords:
+
+-index: ropa femenina, ropa de mujer, tienda online, moda, ropa juvenil, jc indumentaria,  indumentaria mujer, compra ropa online
+
+-preguntas frecuentes: jc preguntas frecuentes, envios, pagos, quienes somos, como realizar un pedido, ayuda, dudas, respuestas
+
+-contacto: jc indumentaria contacto, ubicacion, telefono, gps, numero, direccion, ropa mujer, tienda fisica, redes sociales
+
+////////////productos
+
+-remeras: jc, remeras, top, tienda online, indumentaria, remeras mujer, remeras juveniles, ropa superior, musculosas
+
+-pantalones: jc, pantalones, jeans, parte inferior, ropa mujer, catalogo jc, mom, skinny, wide leg
+
+-shorts: jc, indumentaria mujer, feminina, shorts, ropa inferior, bermuda, catalogo, jean
+
+-monos y vestidos: jc, indumentaria, monos, vestidos, mono largo, ropa mujer, ropa, catalogo
+
+
+
+2.Incorpore etiquitas meta description:
+
+-index: Tienda online de J&C indumentaria. Visita nuestro sitio web disponible 24hs. Envios a todo el pais.
+
+-preguntas frecuentes: Preguntas Frecuentes de la tienda J&C inudmentaria. Despeja tus dudas gracias a las preguntas frecuentes de nuestras clientas
+
+-contacto: Contacto de J&C Indumentaria. Visitanos en nuestras tiendas fisicas. Tienda Online 24hs.
+
+////////////productos
+
+-remeras: Remeras y tops de J&C Indumentaria.Visita nuestro catalogo de Remeras ahora mismo! 
+
+-pantalones: Pantalones J&C Indumentaria. Visita nuestro catalogo de pantalones ahora mismo!
+
+-shorts: Shorts de J&C Indumentaria. Visita nuestro catalogo de shorts ahora mismo!
+
+-monos y vestidos: Monos y Vestidos de J&C Indumentaria. Visita nuestro catalogo de Monos y Vestidos ahora mismo!
+
+
+3.Cambie el lenguaje del html de "en" a "es".
+
+4.Incorpore shortcut a todas mis paginas html.
+
+5.Incorpore un divisor en la etiqueta title donde contiene el nombre la marca y la pagina en donde nos encontremos.
+
+6. En todas mis paginas html aplique "alt" en las imagenes.
+
+7. Respete la jerarquia delas etiquetas de titulo, como h1, h2, h3...

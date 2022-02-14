@@ -1,0 +1,34 @@
+//boton comprar//
+.negro{
+    color: white;
+    background-color: black;
+    &:hover{
+        background-color: $boton-color;
+        color: black;
+        border: black;
+}
+    }
+
+.contenedor-producto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .tarjeta{
+        margin: 1.5vh
+    }
+
+}
+
+.titulo-producto{
+    @extend %estilosTitulo;
+}
+
+@media (max-width:510px){
+    .titulo-producto{
+        font-size: 4vh;
+    }
+    .tarjeta{
+        justify-content: center;
+        margin: 0 auto;
+    }
+}

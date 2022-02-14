@@ -1,0 +1,32 @@
+.main-preguntas{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 6vh;
+    h1{
+        @extend %estilosTitulo;
+    }
+    .contenedor-preguntas{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background-color: $fondo-preguntas;
+        border-radius: 6vh;
+    }
+    .pregunta{
+        margin: 2vh;
+        &:hover{
+            transform: scale(1.111);
+            transition-property: all;
+            transition-duration: 2s;
+            transition: 2s;
+        }
+        h2{
+            font-size: $subtitulo-tamanio;
+        }
+        p{
+            font-size: $parrafo-tamanio;
+        }
+    }
+    
+}

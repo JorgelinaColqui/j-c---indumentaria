@@ -1,0 +1,17 @@
+//MODELOS//
+
+body{
+    background-image: linear-gradient(to right, rgba(252, 207, 215, 0.342), rgba(245, 227, 230, 0.212));
+}
+
+.flex-modelos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 2vh;
+
+    .caja-modelo img{
+        border-radius: 3%;
+    }
+}
+

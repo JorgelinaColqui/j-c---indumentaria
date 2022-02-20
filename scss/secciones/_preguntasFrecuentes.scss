@@ -16,9 +16,9 @@
     .pregunta{
         margin: 2vh;
         &:hover{
-            transform: scale(1.111);
+            transform: scale(1.1);
             transition-property: all;
-            transition-duration: 2s;
+            transition-duration: 1s;
             transition: 2s;
         }
         h2{

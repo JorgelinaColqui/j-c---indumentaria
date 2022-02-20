@@ -1,5 +1,5 @@
 @mixin subtitulo{
-    color: $titulo-color;
+    color: $subtitulo-color;
     font-size: $subtitulo-tamanio;
     &:hover{
         transform: scale(1.111);

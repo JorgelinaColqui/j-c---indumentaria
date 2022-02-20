@@ -1,7 +1,7 @@
 .contacto-contenedor{
     width: 100%;
     padding: 2vh;
-    h1{
+    h2{
         @extend %estilosTitulo;
     }
     .contacto-mapa{
@@ -10,20 +10,28 @@
         align-items: center;
         flex-wrap: wrap;
         iframe{
-            width: 75vh;
-            height: 65vh;
-            margin: 2vh;
+            width: 60vh;
+            height: 60vh;
+            margin: 4vh;
 
         }
     }
 }
 
+.contacto-titulo{
+    @extend %estilosTitulo;
+}
 .contacto-informacion{
+    margin-top: 5%;
+    margin-bottom: 10vh;
     h4{
     @include subtitulo;
     }
     p{
         @include informacion;
+    }
+    ul{
+        padding: 0;
     }
     li{
         list-style-type: none;
@@ -42,11 +50,43 @@
             color: $link-color;
         }
     }
+    .btn-form{
+        color: rgb(0, 0, 0);
+        background-color: rgb(250, 207, 214);
+        border-color: pink;
+        margin-top: 2%;
+        margin-left: 45%;
+    }
+
+}
+
+@media (max-width:767px){
+    .contacto-formulario{
+        margin-top: 10%;
+    }
+    .contacto-informacion{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+    }
 }
 
 @media (max-width:510px){
-    iframe{
-        width: 20vh;
-        height: 20vh;
+    .contacto-contenedor{
+        .contacto-mapa{
+            iframe{
+                width: 45vh;
+                height: 45vh;
+            }
+
+        }
     }
+    .contacto-informacion{
+        .btn-form{
+            margin-left: 10%;
+        }
+
+    }
+    
 }

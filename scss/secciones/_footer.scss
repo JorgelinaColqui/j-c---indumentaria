@@ -3,15 +3,27 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-top: 3vh;
     
     .caja-footer{
         color: white;
+        margin-top: 3.5vh;
+    }
+    ul{
+        padding: 0;
     }
     li{
         list-style-type: none;
     }
     a{
+        padding: 0;
         color: $link-color;
+        text-decoration: none;
+        &:hover{
+            text-decoration: underline;
+            color: white;
+
+        }
     }
 }
 
@@ -29,5 +41,6 @@
     .flex-footer{
         flex-direction: column;
         align-items: center;
+        text-align: left;
     }
 }

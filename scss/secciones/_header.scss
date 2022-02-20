@@ -9,6 +9,46 @@
     }
 }
 
+//BOOTSTRAP NAVBAR//
+
+.bg-negro{
+    background-color: $negro;
+}
+
+.nav-item:hover{
+    background-color: $boton-color;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: $link-color;
+    font-size: 3vh;
+}
+
+.navbar-dark:hover .nav-link:hover{
+    color: $negro;
+}
+
+.dropdown-menu{
+    background-color: $negro;
+    .dropdown-item{
+        color: $link-color;
+        &:hover{
+            color: $negro;
+        }
+    }
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    color: $negro;
+    background-color: $boton-color;
+    &:hover{
+        background-color: $negro;
+        color: $link-color;
+    }
+}
+
+
+
 @media (max-width:510px){
     #logo{
         width: 25vh;

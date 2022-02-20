@@ -34,6 +34,7 @@
         color: $link-color;
         &:hover{
             color: $negro;
+            background-color: $fondo;
         }
     }
 }
@@ -45,6 +46,11 @@
         background-color: $negro;
         color: $link-color;
     }
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: $negro;
+    color: $link-color;
 }
 
 

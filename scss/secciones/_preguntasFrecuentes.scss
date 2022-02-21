@@ -13,8 +13,13 @@
         text-align: justify;
         .pregunta{
             @include pregunta;
+            width: 80vh;
+            height: 25vh;
             h2{
                 text-align: center;
+            }
+            p{
+                font-size: $parrafo-tamanio;
             }
         }
     }
@@ -22,16 +27,27 @@
 
 
 @media (max-width:682px){
-    .contenedor-preguntas{
-        flex-wrap: wrap;
-        margin: 2vh;
+    .main-preguntas{
+        .contenedor-preguntas{
+            flex-wrap: wrap;
+            margin: 2vh;
+            .pregunta{
+                height: 30vh;
+                
+            }
+        }
     }
 }
 
-@media (max-width:320px){
+@media (max-width:363px){
     .main-preguntas{
         h1{
             font-size: $titulo-tamanio-mobile
+        }
+        .contenedor-preguntas{
+            .pregunta{
+                height: 50vh;
+            }
         }
     }
 }

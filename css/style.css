@@ -133,7 +133,10 @@ body {
     .main-preguntas .contenedor-preguntas .pregunta {
       margin: 3%;
       background-color: #e7bdc4;
-      border-radius: 10%; }
+      border-radius: 10%;
+      text-align: center;
+      width: 80vh;
+      height: 25vh; }
       .main-preguntas .contenedor-preguntas .pregunta:hover {
         background-color: black;
         color: pink;
@@ -141,15 +144,21 @@ body {
         transition: 1s all; }
       .main-preguntas .contenedor-preguntas .pregunta h2 {
         text-align: center; }
+      .main-preguntas .contenedor-preguntas .pregunta p {
+        font-size: 2.5vh; }
 
 @media (max-width: 682px) {
-  .contenedor-preguntas {
+  .main-preguntas .contenedor-preguntas {
     flex-wrap: wrap;
-    margin: 2vh; } }
+    margin: 2vh; }
+    .main-preguntas .contenedor-preguntas .pregunta {
+      height: 30vh; } }
 
-@media (max-width: 320px) {
+@media (max-width: 363px) {
   .main-preguntas h1 {
-    font-size: 5vh; } }
+    font-size: 5vh; }
+  .main-preguntas .contenedor-preguntas .pregunta {
+    height: 50vh; } }
 
 .contacto-contenedor {
   width: 100%;

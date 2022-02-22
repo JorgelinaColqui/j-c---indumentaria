@@ -23,6 +23,11 @@
     @extend %estilosTitulo;
 }
 
+.btn-check:focus+.btn, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem $link-color;
+}
+
 @media (max-width:510px){
     .titulo-producto{
         font-size: 4vh;
